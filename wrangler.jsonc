@@ -1,10 +1,16 @@
 {
-	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "logpush2binding-worker",
-	"main": "src/index.ts",
-	"compatibility_date": "2025-04-15",
-	"observability": {
-		"enabled": true
-	},
-	"pipelines": [{ "binding": "PIPELINE", "pipeline": "logpush-http-requests" }]
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "logpush2binding-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-04-15",
+  "observability": {
+    "enabled": true,
+  },
+  "pipelines": [
+    { "binding": "PIPELINE", "pipeline": "logpush-http-requests" },
+    {
+      "pipeline": "d9af50ea50f74c9d8754dcd60b7db43b",
+      "binding": "LOGPUSH_HTTP_REQUESTS_STREAM",
+    },
+  ],
 }

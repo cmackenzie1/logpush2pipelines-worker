@@ -7,7 +7,7 @@
     },
     {
       "name": "CacheReserveUsed",
-      "type": "boolean",
+      "type": "bool",
       "required": false
     },
     {
@@ -22,7 +22,7 @@
     },
     {
       "name": "CacheTieredFill",
-      "type": "boolean",
+      "type": "bool",
       "required": false
     },
     {
@@ -157,7 +157,7 @@
     },
     {
       "name": "EdgeCFConnectingO2O",
-      "type": "boolean",
+      "type": "bool",
       "required": false
     },
     {
@@ -409,7 +409,7 @@
     },
     {
       "name": "WorkerSubrequest",
-      "type": "boolean",
+      "type": "bool",
       "required": false
     },
     {
