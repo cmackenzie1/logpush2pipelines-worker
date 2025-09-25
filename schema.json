@@ -1,0 +1,431 @@
+{
+  "fields": [
+    {
+      "name": "CacheCacheStatus",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "CacheReserveUsed",
+      "type": "boolean",
+      "required": false
+    },
+    {
+      "name": "CacheResponseBytes",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "CacheResponseStatus",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "CacheTieredFill",
+      "type": "boolean",
+      "required": false
+    },
+    {
+      "name": "ClientASN",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "ClientCity",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "ClientCountry",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "ClientDeviceType",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "ClientIP",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "ClientIPClass",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "ClientLatitude",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "ClientLongitude",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "ClientMTLSAuthCertFingerprint",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "ClientMTLSAuthStatus",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "ClientRegionCode",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "ClientRequestBytes",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "ClientRequestHost",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "ClientRequestMethod",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "ClientRequestPath",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "ClientRequestProtocol",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "ClientRequestReferer",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "ClientRequestScheme",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "ClientRequestSource",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "ClientRequestURI",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "ClientRequestUserAgent",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "ClientSSLCipher",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "ClientSSLProtocol",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "ClientSrcPort",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "ClientTCPRTTMs",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "ClientXRequestedWith",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "EdgeCFConnectingO2O",
+      "type": "boolean",
+      "required": false
+    },
+    {
+      "name": "EdgeColoCode",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "EdgeColoID",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "EdgeEndTimestamp",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "EdgePathingOp",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "EdgePathingSrc",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "EdgePathingStatus",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "EdgeRequestHost",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "EdgeResponseBodyBytes",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "EdgeResponseBytes",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "EdgeResponseCompressionRatio",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "EdgeResponseContentType",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "EdgeResponseStatus",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "EdgeServerIP",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "EdgeStartTimestamp",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "EdgeTimeToFirstByteMs",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "LeakedCredentialCheckResult",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "OriginDNSResponseTimeMs",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "OriginIP",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "OriginRequestHeaderSendDurationMs",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "OriginResponseBytes",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "OriginResponseDurationMs",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "OriginResponseHTTPExpires",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "OriginResponseHTTPLastModified",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "OriginResponseHeaderReceiveDurationMs",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "OriginResponseStatus",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "OriginResponseTime",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "OriginSSLProtocol",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "OriginTCPHandshakeDurationMs",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "OriginTLSHandshakeDurationMs",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "ParentRayID",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "RayID",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "SecurityAction",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "SecurityActions",
+      "type": "list",
+      "required": false,
+      "items": {
+        "name": "item",
+        "type": "string"
+      }
+    },
+    {
+      "name": "SecurityRuleDescription",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "SecurityRuleID",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "SecurityRuleIDs",
+      "type": "list",
+      "required": false,
+      "items": {
+        "name": "item",
+        "type": "string"
+      }
+    },
+    {
+      "name": "SecuritySources",
+      "type": "list",
+      "required": false,
+      "items": {
+        "name": "item",
+        "type": "string"
+      }
+    },
+    {
+      "name": "SmartRouteColoID",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "UpperTierColoID",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "WAFAttackScore",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "WAFFlags",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "WAFMatchedVar",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "WAFRCEAttackScore",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "WAFSQLiAttackScore",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "WAFXSSAttackScore",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "WorkerCPUTime",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "WorkerStatus",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "WorkerSubrequest",
+      "type": "boolean",
+      "required": false
+    },
+    {
+      "name": "WorkerSubrequestCount",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "WorkerWallTimeUs",
+      "type": "int64",
+      "required": false
+    },
+    {
+      "name": "ZoneName",
+      "type": "string",
+      "required": false
+    }
+  ]
+}
